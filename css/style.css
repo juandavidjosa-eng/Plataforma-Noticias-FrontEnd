@@ -1,0 +1,18 @@
+/* Efecto de elevación para las tarjetas de noticias al pasar el mouse */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Ajuste sutil para los enlaces del menú al pasar el mouse */
+.nav-link {
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important; /* Rojo de Bootstrap */
+}
